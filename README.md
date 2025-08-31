@@ -1,5 +1,5 @@
-# Face Pipeline — Detect → Align → Embed
 
+Component 1 (face detector and feature extractor):  [Pipeline — Detect → Align → Embed]
 A compact, production-ready pipeline that runs **RetinaFace (MobileNet-0.25)** for face detection, performs **ArcFace-style \(5\)-point alignment** to \(112\times112\), and extracts **L2-normalized embeddings** from a pluggable head: lightweight **MobileNetV2** (\(128\)-D) or **InsightFace** recognizers (e.g., `buffalo_l`). Outputs a tidy CSV with boxes and features, plus an optional annotated image.
 
 ## Highlights
@@ -27,4 +27,4 @@ python3 face_pipeline.py \
 ```
 Output: CSV with x1,y1,x2,y2,feat_0…feat_(D-1) and an optional visualization.
 
-Refs for the tools mentioned: biubug6’s RetinaFace (MobileNet-0.25) and InsightFace packs (`buffalo_l`, etc.), and ArcFace’s $begin:math:text$112\\times112$end:math:text$ $begin:math:text$5$end:math:text$-point alignment norm. (https://github.com/biubug6/Pytorch_Retinaface?utm_source=chatgpt.com) (https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf?utm_source=chatgpt.com)
+Refs for the tools mentioned: biubug6’s RetinaFace (MobileNet-0.25) and InsightFace packs (`buffalo_l`, etc.), and ArcFace’s $begin:math:text$112\\times112$end:math:text$ $begin:math:text$5$end:math:text$-point alignment norm. (https://github.com/biubug6/Pytorch_Retinaface.git) ArcFace: (https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf)
