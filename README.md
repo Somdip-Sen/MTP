@@ -1,5 +1,5 @@
 
-Component 1 (face detector and feature extractor):  [Pipeline — Detect → Align → Embed]
+Component 1 (face detector and feature extractor):  [Pipeline — Detect → Align → Embed]\
 A compact, production-ready pipeline that runs **RetinaFace (MobileNet-0.25)** for face detection, performs **ArcFace-style \(5\)-point alignment** to \(112\times112\), and extracts **L2-normalized embeddings** from a pluggable head: lightweight **MobileNetV2** (\(128\)-D) or **InsightFace** recognizers (e.g., `buffalo_l`). Outputs a tidy CSV with boxes and features, plus an optional annotated image.
 
 ## Highlights
