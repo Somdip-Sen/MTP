@@ -28,4 +28,5 @@ python3 face_pipeline.py \
 Output: CSV with x1,y1,x2,y2,feat_0…feat_(D-1) and an optional visualization.
 
 Refs for the tools mentioned: biubug6’s RetinaFace (MobileNet-0.25) and InsightFace packs (`buffalo_l`, etc.), and \
-Retinaface used: (https://github.com/biubug6/Pytorch_Retinaface.git) \ArcFace: (https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf)
+Retinaface used: (https://github.com/biubug6/Pytorch_Retinaface.git) \
+ArcFace paper: (https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf)
